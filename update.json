@@ -1,12 +1,13 @@
 {
-  "versionCode": 121,
-  "versionName": "7.54",
+  "versionCode": 122,
+  "versionName": "7.55",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.54.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.54.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.55.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.55.apk",
   "updateLog": [
-    "修复一个烦人的问题：有时候明明已经更新到最新版，再点检查更新还是提示有新版本、下载下来却还是同一个包——现在遇到这种「假更新」提示会自动换条线路重新确认",
-    "个别下载线路偶尔会吐出很久以前的旧版本信息，现在会自动跳过它，不会再被旧信息误导",
-    "检查更新整体更稳：网络不好时更快放弃卡住的线路、换下一条，不再傻等"
+    "电脑监控更稳：以前只要有一台电脑的网络卡住，所有电脑上的曲线会一起僵住，现在各连各的，互不拖累",
+    "电脑监控更安全：连接口令连续输错会被短暂锁住，别人没法一直碰运气；只接受同一个 Wi-Fi（局域网）里的设备，公网地址连不进来，最多同时 8 台",
+    "检查更新更靠谱：只有正常的网页下载地址才会打开，异常的链接会被忽略，不会被带到奇怪的地方",
+    "修复电脑监控页面上显示的 App 版本号一直停在旧版本的问题，现在显示当前真实版本"
   ]
 }
