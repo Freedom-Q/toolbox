@@ -1,10 +1,10 @@
 {
-  "versionCode": 127,
-  "versionName": "7.60-test",
+  "versionCode": 128,
+  "versionName": "7.61-test",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.60-test.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.60-test.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.61-test.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.61-test.apk",
   "updateLog": [
-    "【测试条目】验证 7.59 的自动检查：不用点按钮，打开 App 就应该自己弹出这个窗口"
+    "【测试条目】验证 7.59 的后台通知推送：App 在后台也会收到这条提醒"
   ]
 }
