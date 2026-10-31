@@ -1,11 +1,13 @@
 {
-  "versionCode": 127,
-  "versionName": "7.60",
+  "versionCode": 128,
+  "versionName": "7.61",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.60.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.60.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.61.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.61.apk",
   "updateLog": [
-    "修复电脑监控看不到帧率：新系统（Android 12+/HyperOS 新版）的图层格式变了，App 按新格式重新适配，K100 Pro 等新机型恢复帧率和 1% low 显示",
-    "旧机型不受影响，帧率口径不变"
+    "功率口径说清楚：主数字统一标注「电池端」，不再让人误以为是充电器输出功率（充电器端系统不提供，明确注明）",
+    "充满后插着电不再显示「充电 x W」：改为显示 旁流/涓流 x.x W，功率卡、充电面板、灵动岛、电脑监控页口径一致",
+    "环境自检卡片补全状态：第一行显示 Shizuku 真实状态（已授权 / 已连接未授权 / 未连接），第二行图例，不再留空白",
+    "传感器页改为卡片贴合内容、整页可滚动，小屏或大字号不再裁切"
   ]
 }
