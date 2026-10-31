@@ -1,0 +1,13 @@
+{
+  "versionCode": 112,
+  "versionName": "7.45",
+  "downloadUrl": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.45.apk",
+  "updateLog": [
+    "1. 新增检查更新：从 Git 清单比对版本号，有新版弹窗展示更新日志，点立即更新用浏览器下载",
+    "2. 新增带日志的反馈模块：一键抓机型/系统/Shizuku 状态和最近 5 分钟相关日志，可直接发邮件",
+    "3. 电脑监控补齐手机端全部曲线，充电功率和整机功耗拆分显示、可切换",
+    "4. 设置页改版：刷新率四档、省电采样、温度报警阈值均可自定义"
+  ],
+  "force": false,
+  "minSdk": 21
+}
