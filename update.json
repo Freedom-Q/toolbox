@@ -1,10 +1,12 @@
 {
-  "versionCode": 130,
-  "versionName": "7.63-test",
+  "versionCode": 129,
+  "versionName": "7.62",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.63-test.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.63-test.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.62.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.62.apk",
   "updateLog": [
-    "【测试条目】验证每次打开 App 都自动弹窗，看到即正常"
+    "修复自动检查不弹窗：之前打开 App 要距离上次检查超过 6 小时才会查，而且只在冷启动时查——现在每次打开 App 都会查一次（留 5 分钟小节流防抖）",
+    "App 挂在后台被保留时，从最近任务切回来也会触发检查，不再漏掉",
+    "点了「稍后」的版本依然不会反复弹，手动检查更新不受影响"
   ]
 }
