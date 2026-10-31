@@ -1,10 +1,13 @@
 {
-  "versionCode": 119,
-  "versionName": "7.52",
+  "versionCode": 120,
+  "versionName": "7.53",
   "minSdk": 26,
-  "downloadUrl": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.52.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.53.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.53.apk",
   "updateLog": [
-    "检查更新提示优化：线上清单版本比手机上装的还旧时，会直接说明「仓库的 update.json 没换成新版本」，不再只说一句已是最新让人摸不着头脑",
-    "后台白名单引导（上版 v7.51 的功能一并带上）"
+    "更新下载改走 CDN 镜像（jsDelivr）：实测国内 GitHub raw 只有 1.6 KB/s，镜像 285 KB/s，2 MB 的安装包从「几乎下不动」变成十几秒",
+    "检查更新给清单地址加了时间戳，绕开镜像最长 12 小时缓存——刚发布的版本立刻就能被看到，不会再出现「明明发了新版却说已是最新」",
+    "新版本弹窗加一行备用入口：镜像抽风时可以一键改用 GitHub 原始地址下载",
+    "后台白名单引导（v7.51 起）继续有效"
   ]
 }
