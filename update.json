@@ -1,12 +1,10 @@
 {
-  "versionCode": 125,
-  "versionName": "7.58",
+  "versionCode": 126,
+  "versionName": "7.59-test",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.58.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.58.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.59-test.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.59-test.apk",
   "updateLog": [
-    "修复检查更新误报：镜像缓存偶尔会停在比线上还新的版本（比如清单刚被换回时），现在会先回 GitHub 原始地址复核一遍再弹窗，不再被镜像带偏",
-    "镜像报的新版复核为假时，直接提示「已是最新」，不再出现确认过的弹窗",
-    "GitHub 原始地址连不上时仍按镜像提示弹窗，真更新不会因为复核失败而被吞掉"
+    "【测试条目】验证 7.58 的检查更新弹窗链路，看到即正常"
   ]
 }
