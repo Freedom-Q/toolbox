@@ -1,10 +1,10 @@
 {
-  "versionCode": 128,
-  "versionName": "7.61-test",
+  "versionCode": 129,
+  "versionName": "7.62-test",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.61-test.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.61-test.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.62-test.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.62-test.apk",
   "updateLog": [
-    "【测试条目】验证 7.59 的后台通知推送：App 在后台也会收到这条提醒"
+    "【测试条目】验证后台通知：这条会以系统通知的形式推出来，点开直接看更新说明"
   ]
 }
