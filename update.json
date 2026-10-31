@@ -1,12 +1,12 @@
 {
-  "versionCode": 124,
-  "versionName": "7.57",
+  "versionCode": 125,
+  "versionName": "7.58",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.57.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.57.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.58.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.58.apk",
   "updateLog": [
-    "修复功耗统计里的假 0：偶尔会把「这一下没读到」当成 0 W 记下来，导致报告和曲线里的最低功耗一直是 0.00 W",
-    "读不到功率现在算「未测到」：曲线断开、不参与统计，界面上显示 -- 而不是 0.0 W",
-    "最低功耗只取真实读数，回到正常的待机水平；首页、曲线页、游戏横条、桌面组件、电脑监控页口径统一"
+    "修复检查更新误报：镜像缓存偶尔会停在比线上还新的版本（比如清单刚被换回时），现在会先回 GitHub 原始地址复核一遍再弹窗，不再被镜像带偏",
+    "镜像报的新版复核为假时，直接提示「已是最新」，不再出现确认过的弹窗",
+    "GitHub 原始地址连不上时仍按镜像提示弹窗，真更新不会因为复核失败而被吞掉"
   ]
 }
