@@ -1,10 +1,13 @@
 {
-  "versionCode": 129,
-  "versionName": "7.62-test",
+  "versionCode": 126,
+  "versionName": "7.59",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.62-test.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.62-test.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.59.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.59.apk",
   "updateLog": [
-    "【测试条目】验证后台通知：这条会以系统通知的形式推出来，点开直接看更新说明"
+    "自动检查更新：不用自己去点了，打开 App 会自己比对线上版本，有新版直接弹窗说明更新了什么",
+    "App 挂在后台也能收到推送：检测到新版会发一条系统通知，点开直接看更新内容",
+    "不打扰有分寸：打开 App 最多 6 小时查一次，同一个版本点过「稍后」就不再自动提醒（手动检查照常）",
+    "后台检查 12 小时一次，同一版本只推一条通知；界面上看过更新说明，通知自动收走"
   ]
 }
