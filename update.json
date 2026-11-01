@@ -1,11 +1,13 @@
 {
-  "versionCode": 140,
-  "versionName": "7.72",
+  "versionCode": 142,
+  "versionName": "7.74",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.72.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.72.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.74.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.74.apk",
   "updateLog": [
-    "页面切入动画放慢：240ms → 320ms，从下往上滑入更从容、不再赶",
-    "仍是纯位移转场（进页上滑、退页下滑），流畅不卡；「关闭所有界面动画」开关照常生效"
+    "电流异常值拦截：冷启动首拍不进统计，读数超出系统上报的充电上限直接丢弃，不再出现 10.3A/45.8W 这种物理上不可能的数",
+    "功率口径统一：功率卡与「电池端」面板显示同一个 3 秒平均，瞬时值单独标注，灵动岛同步同口径",
+    "环境自检页修复：中间大片空白消除、按钮紧跟内容；图例跟随授权状态，与逐项说明用同一套词",
+    "targetSdk 27 → 34：适配 Android 13/14 新规范，上架与新系统兼容不再埋雷"
   ]
 }
