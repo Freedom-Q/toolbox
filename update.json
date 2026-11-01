@@ -1,13 +1,12 @@
 {
-  "versionCode": 142,
-  "versionName": "7.74",
-  "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.74.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.74.apk",
+  "versionCode": 147,
+  "versionName": "7.79",
+  "minSdk": 21,
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.79.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.79.apk",
   "updateLog": [
-    "电流异常值拦截：冷启动首拍不进统计，读数超出系统上报的充电上限直接丢弃，不再出现 10.3A/45.8W 这种物理上不可能的数",
-    "功率口径统一：功率卡与「电池端」面板显示同一个 3 秒平均，瞬时值单独标注，灵动岛同步同口径",
-    "环境自检页修复：中间大片空白消除、按钮紧跟内容；图例跟随授权状态，与逐项说明用同一套词",
-    "targetSdk 27 → 34：适配 Android 13/14 新规范，上架与新系统兼容不再埋雷"
+    "电脑监控离线化：Vue / ECharts 打进 APK，由手机本地 HTTP 下发——电脑没外网、CDN 被墙也不再白屏",
+    "新增扫码连接：地址 + 口令合成一条链接画成二维码，扫一下直接进监控界面，不用手输 IP / 端口 / 口令",
+    "二维码本地生成（不联网）；页面外链清零，附资源加载失败的兜底提示"
   ]
 }
