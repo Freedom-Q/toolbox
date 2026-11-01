@@ -1,12 +1,13 @@
 {
-  "versionCode": 147,
-  "versionName": "7.79",
+  "versionCode": 148,
+  "versionName": "7.80",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.79.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.79.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.80.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.80.apk",
   "updateLog": [
-    "电脑监控离线化：Vue / ECharts 打进 APK，由手机本地 HTTP 下发——电脑没外网、CDN 被墙也不再白屏",
-    "新增扫码连接：地址 + 口令合成一条链接画成二维码，扫一下直接进监控界面，不用手输 IP / 端口 / 口令",
-    "二维码本地生成（不联网）；页面外链清零，附资源加载失败的兜底提示"
+    "更新检查全面提速：三条线路并发抢答，镜像秒回，不再陪超时的 raw 干等（实测 0.75 秒出结果）",
+    "App 开着也轮询：每 90 秒看一眼，发版后最多一分半弹窗；回首页一分钟内即可复查",
+    "检查失败 20 秒后即可重试（以前失败也要占满 5 分钟），后台提醒从 12 小时一次提到 30 分钟一次",
+    "设置页「检查更新」显示上次检查时间，链路死活一眼可见"
   ]
 }
