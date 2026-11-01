@@ -1,13 +1,13 @@
 {
-  "versionCode": 151,
-  "versionName": "7.83",
+  "versionCode": 152,
+  "versionName": "7.84",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.83.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.83.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.84.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.84.apk",
   "updateLog": [
-    "健康度不再冒充「刚刚读取」：Shizuku 没授权/没在跑时，明确写「上次读取：N 小时前」并注明显示的是当时存下的值",
-    "读取时间细分粒度：刚刚 / N 分钟前 / N 小时前 / N 天前，超过两周给具体日期",
-    "数据出处如实标注：真值来自 HealthInfo 还是 batterystats 学习容量，界面照实写，不再一律自称 HealthInfo",
-    "读不到真值时数值行改标「系统满电」，点卡片弹窗也会说明「不是刚读的，别拿它当实时值看」"
+    "Shizuku 在跑就直接弹授权框：打开 App 或点横幅立即请求授权，不再让你钻进 Shizuku 的「授权管理」里手动开",
+    "顶部横幅分三种话术：在跑没授权 / 装了没连上 / 没装 Shizuku，不再一律写「未接通」",
+    "拒绝过授权就不再自动弹框（只留横幅），点横幅随时可以再请求",
+    "设置页「Shizuku · 待授权」点击同样直接弹授权框"
   ]
 }
