@@ -1,13 +1,12 @@
 {
-  "versionCode": 152,
-  "versionName": "7.84",
+  "versionCode": 153,
+  "versionName": "7.85",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.84.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.84.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.85.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.85.apk",
   "updateLog": [
-    "Shizuku 在跑就直接弹授权框：打开 App 或点横幅立即请求授权，不再让你钻进 Shizuku 的「授权管理」里手动开",
-    "顶部横幅分三种话术：在跑没授权 / 装了没连上 / 没装 Shizuku，不再一律写「未接通」",
-    "拒绝过授权就不再自动弹框（只留横幅），点横幅随时可以再请求",
-    "设置页「Shizuku · 待授权」点击同样直接弹授权框"
+    "更新检查加一条实时线路：GitHub 的 raw / jsDelivr 被中间层缓存成旧版时（实测发布 10 分钟仍回上一版），照样能及时发现新版",
+    "检查更新仍是多路并发抢答，取版本号最高的一条，不会被旧缓存带偏",
+    "弹窗里的备用下载改成加速地址，raw 打不开时下得动"
   ]
 }
