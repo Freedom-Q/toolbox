@@ -1,12 +1,12 @@
 {
-  "versionCode": 131,
-  "versionName": "7.63",
+  "versionCode": 132,
+  "versionName": "7.64",
   "minSdk": 26,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.63.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.63.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.64.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.64.apk",
   "updateLog": [
-    "温度显示防跳变：读数瞬间比上次高出 20℃ 以上的坏值不再直接显示，改用最近 3 次读数的平均，不再从 50℃ 一秒跳到 80 多度吓人；如果真的持续升温会很快跟上",
-    "应用监控不再出现自己：本 App 的采样开销从耗电 / CPU / 内存榜单中过滤掉，榜单全是真实的应用",
-    "报告文案更顺口：「低 60 fps」统一改为「最低 60 fps」"
+    "动效升级：所有卡片出现时依次淡入上浮，展开 / 收起（充电信息面板等）用先加速后减速的柔顺曲线，不再生硬跳变",
+    "点击卡片有按压缩放反馈，松手带回弹，手感更跟手",
+    "点开「报告 / 应用监控 / 设置」等页面时，卡片从原位置平滑放大成整页（共享元素转场），返回时再收回原位；不再左右硬滑"
   ]
 }
