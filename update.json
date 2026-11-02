@@ -1,12 +1,12 @@
 {
-  "versionCode": 154,
-  "versionName": "7.86",
+  "versionCode": 155,
+  "versionName": "7.87",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.86.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.86.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.87.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.87.apk",
   "updateLog": [
-    "电脑监控认得出手机热点 / USB 共享的地址：以前开热点时会把连不上的蜂窝地址当本机地址显示，导致电脑打不开",
-    "热点 / Wi-Fi / USB 共享的地址分开标注，有多个局域网地址时全部列出，电脑连哪个都行",
-    "HyperOS / MIUI 上 Shizuku 弹「adb 权限受限」时给出说破和「USB 调试（安全设置）」指引，授权不下来会自动说明"
+    "电脑监控的连接口令可以自己写了：好记的一串点「应用」就生效，太短 / 纯数字会提醒，「随机生成」随时换回随机口令",
+    "新增调试安全门：陌生 Wi-Fi 里授权 Shizuku 或开局域网监控，要先确认网络并验证锁屏密码，验证不过不开",
+    "可以勾选「以后在这个网络不再询问」，信任的家 / 公司网不添麻烦"
   ]
 }
