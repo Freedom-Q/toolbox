@@ -1,12 +1,12 @@
 {
-  "versionCode": 153,
-  "versionName": "7.85",
+  "versionCode": 154,
+  "versionName": "7.86",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.85.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.85.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.86.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.86.apk",
   "updateLog": [
-    "更新检查加一条实时线路：GitHub 的 raw / jsDelivr 被中间层缓存成旧版时（实测发布 10 分钟仍回上一版），照样能及时发现新版",
-    "检查更新仍是多路并发抢答，取版本号最高的一条，不会被旧缓存带偏",
-    "弹窗里的备用下载改成加速地址，raw 打不开时下得动"
+    "电脑监控认得出手机热点 / USB 共享的地址：以前开热点时会把连不上的蜂窝地址当本机地址显示，导致电脑打不开",
+    "热点 / Wi-Fi / USB 共享的地址分开标注，有多个局域网地址时全部列出，电脑连哪个都行",
+    "HyperOS / MIUI 上 Shizuku 弹「adb 权限受限」时给出说破和「USB 调试（安全设置）」指引，授权不下来会自动说明"
   ]
 }
