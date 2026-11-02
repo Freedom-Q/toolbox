@@ -1,12 +1,13 @@
 {
-  "versionCode": 155,
-  "versionName": "7.87",
+  "versionCode": 156,
+  "versionName": "7.88",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.87.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.87.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.88.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.88.apk",
   "updateLog": [
-    "电脑监控的连接口令可以自己写了：好记的一串点「应用」就生效，太短 / 纯数字会提醒，「随机生成」随时换回随机口令",
-    "新增调试安全门：陌生 Wi-Fi 里授权 Shizuku 或开局域网监控，要先确认网络并验证锁屏密码，验证不过不开",
-    "可以勾选「以后在这个网络不再询问」，信任的家 / 公司网不添麻烦"
+    "调试安全门的弹窗换新样子了：深色卡片、写着当前网络和风险点，不再是系统那种白弹窗",
+    "新增网络守护：应用退到后台、你换到一张陌生网络时，只要调试还开着就会先问一句，验证锁屏密码才放行",
+    "设置里能开关「调试安全门」，也能一键清空已经信任的网络",
+    "网络守护走最低优先级通知，不抢前台，不想要随时关掉"
   ]
 }
