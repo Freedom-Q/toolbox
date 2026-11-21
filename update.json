@@ -1,13 +1,13 @@
 {
-  "versionCode": 159,
-  "versionName": "7.91",
+  "versionCode": 160,
+  "versionName": "7.92",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.91.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.91.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.92.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.92.apk",
   "updateLog": [
-    "合规调整：不再内置 Shizuku 安装包，也不再申请「安装未知应用」权限",
+    "反馈界面不再展示开发者邮箱，保护隐私；发邮件时收件人仍自动填好",
+    "v7.91：不再内置 Shizuku 安装包，也不再申请「安装未知应用」权限",
     "Shizuku 改为跳转官方下载页，由用户自行安装（完整版功能不变）",
-    "同时提供应用商店精简版：不含 Shizuku 与系统级功能，仅保留公开 API 可读取数据",
-    "保留四页分类：监控 / 网络 / 系统 / 工具"
+    "同时提供应用商店精简版：不含 Shizuku 与系统级功能，仅保留公开 API 可读取数据"
   ]
 }
