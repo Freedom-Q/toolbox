@@ -1,15 +1,13 @@
 {
-  "versionCode": 158,
-  "versionName": "7.90",
+  "versionCode": 159,
+  "versionName": "7.91",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.90.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.90.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.91.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.91.apk",
   "updateLog": [
-    "主界面按功能重新分类：底部新增「监控 / 网络 / 系统 / 工具」四个 Tab，一点即切换",
-    "监控页：实时功率、温度、帧率、功耗、CPU/GPU、内存、电池健康、充电信息",
-    "网络页：屏幕显示、实时网速、网络质量、网络信息",
-    "系统页：应用监控、报告、系统信息、传感器、性能模式、设置、环境自检",
-    "工具页：电脑监控、反馈、桌面组件、游戏横条、充电灵动岛、满电提醒、一键关闭",
-    "顶部状态行常驻，切到任何分类都能看到电量和充电状态"
+    "合规调整：不再内置 Shizuku 安装包，也不再申请「安装未知应用」权限",
+    "Shizuku 改为跳转官方下载页，由用户自行安装（完整版功能不变）",
+    "同时提供应用商店精简版：不含 Shizuku 与系统级功能，仅保留公开 API 可读取数据",
+    "保留四页分类：监控 / 网络 / 系统 / 工具"
   ]
 }
