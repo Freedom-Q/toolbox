@@ -1,12 +1,15 @@
 {
-  "versionCode": 157,
-  "versionName": "7.89",
+  "versionCode": 158,
+  "versionName": "7.90",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.89.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.89.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.90.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.90.apk",
   "updateLog": [
-    "修复安全门的一个严重问题：点「确认并验证」跳去锁屏验证后，门被系统提前关掉，密码对了也送不回结果——表现为验证了功能也开不了、每次都要重新确认",
-    "现在验证通过后功能直接生效：开监控就开启服务、授权 Shizuku 就正常走授权",
-    "验证通过后的几分钟内不再重复弹门，同一批操作不会被问两遍"
+    "主界面按功能重新分类：底部新增「监控 / 网络 / 系统 / 工具」四个 Tab，一点即切换",
+    "监控页：实时功率、温度、帧率、功耗、CPU/GPU、内存、电池健康、充电信息",
+    "网络页：屏幕显示、实时网速、网络质量、网络信息",
+    "系统页：应用监控、报告、系统信息、传感器、性能模式、设置、环境自检",
+    "工具页：电脑监控、反馈、桌面组件、游戏横条、充电灵动岛、满电提醒、一键关闭",
+    "顶部状态行常驻，切到任何分类都能看到电量和充电状态"
   ]
 }
