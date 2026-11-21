@@ -1,9 +1,9 @@
 {
-  "versionCode": 160,
-  "versionName": "7.92",
+  "versionCode": 161,
+  "versionName": "7.93",
   "minSdk": 21,
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.92.apk",
-  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.92.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.93.apk",
+  "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.93.apk",
   "updateLog": [
     "优化体验，提升稳定性"
   ]
