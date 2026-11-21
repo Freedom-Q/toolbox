@@ -5,9 +5,6 @@
   "downloadUrl": "https://cdn.jsdelivr.net/gh/Freedom-Q/toolbox@main/toolbox_v7.92.apk",
   "downloadUrlBak": "https://github.com/Freedom-Q/toolbox/raw/main/toolbox_v7.92.apk",
   "updateLog": [
-    "反馈界面不再展示开发者邮箱，保护隐私；发邮件时收件人仍自动填好",
-    "v7.91：不再内置 Shizuku 安装包，也不再申请「安装未知应用」权限",
-    "Shizuku 改为跳转官方下载页，由用户自行安装（完整版功能不变）",
-    "同时提供应用商店精简版：不含 Shizuku 与系统级功能，仅保留公开 API 可读取数据"
+    "优化体验，提升稳定性"
   ]
 }
